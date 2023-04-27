@@ -1,0 +1,61 @@
+ body{
+ 	background: whitesmoke;
+ 	font-family: arial black;
+ }
+
+ #form{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	height: 100vh;
+ 	flex-direction: column;
+ }
+
+ .main{
+ 	margin: 30px;
+ }
+
+ input[type="text"],input[type="password"],input[type="submit"]{
+ 	width: 400px;
+ 	height: 50px;
+ 	background: transparent;
+ 	outline: none;
+ 	border: 4px solid #343;
+ }
+
+ #btn{
+ 	margin-left: 90px;
+ 	outline: none;
+ 	color: #343;
+ 	font-size: 20px;
+ 	font-weight: bold;
+ 	font-family: arial black;
+ 	transition: all 1s;
+ }
+
+  #btn:hover{
+  	background: #343;
+  	color: #eee;
+  	cursor: pointer;
+  }
+
+  h2{
+  	margin-left: 70px;
+  	letter-spacing: 2px;
+  	border-bottom: 2px solid #343f43;
+  }
+
+  label{
+  	text-transform: capitalize;
+  	letter-spacing: 1px;
+  	font-size: 15px;
+  	font-family: arial black;
+  }
+
+  ::placeholder{
+  	text-transform: capitalize;
+  	letter-spacing: 1px;
+  	font-size: 15px;
+  	font-family: arial black;
+  	margin-left: 20px;
+  }
